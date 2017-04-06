@@ -1095,9 +1095,6 @@ inline intptr_t bitfield(intptr_t x, int start_bit_no, int field_length) {
 #undef min
 #endif
 
-#define max(a,b) Do_not_use_max_use_MAX2_instead
-#define min(a,b) Do_not_use_min_use_MIN2_instead
-
 // It is necessary to use templates here. Having normal overloaded
 // functions does not work because it is necessary to provide both 32-
 // and 64-bit overloaded functions, which does not work, and having
