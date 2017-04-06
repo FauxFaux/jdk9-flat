@@ -60,3 +60,6 @@ def main():
 
 if '__main__' == __name__:
     main()
+
+# list(pygments.lex('int main(){\n# ifdef lol\nq();\n#endif\nfoo(bar()); }', CppLexer()))
+
